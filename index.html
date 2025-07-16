@@ -4,9 +4,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>China Scholars - Your Gateway to Chinese Universities</title>
-    <meta name="description" content="Expert educational consultancy helping students apply to top universities in China. Professional guidance, visa assistance, and cultural preparation.">
     
-    <!-- Google Fonts - Inter -->
+    <!-- Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
@@ -16,33 +15,38 @@
     
     <!-- Stylesheets -->
     <link rel="stylesheet" href="css/styles.css">
-    <link rel="stylesheet" href="css/animations.css">
     <link rel="stylesheet" href="css/responsive.css">
+    <link rel="stylesheet" href="css/animations.css">
+    <link rel="stylesheet" href="css/contact-fix.css">
 </head>
 <body>
     <!-- Language Toggle -->
     <div class="language-toggle">
-        <button id="lang-en" class="lang-btn active" data-lang="en">EN</button>
-        <button id="lang-ar" class="lang-btn" data-lang="ar">العربية</button>
+        <button class="lang-btn active" data-lang="en">EN</button>
+        <button class="lang-btn" data-lang="ar">العربية</button>
     </div>
 
     <!-- Navigation -->
     <nav class="navbar">
-        <div class="nav-container">
-            <div class="nav-logo">
-                <img src="assets/images/china_scholars_logo.png" alt="China Scholars Logo" class="logo-img">
-                <span class="logo-text" data-en="China Scholars" data-ar="علماء الصين">China Scholars</span>
-            </div>
-            
-            <div class="nav-menu">
-                <a href="#home" class="nav-link" data-en="Home" data-ar="الرئيسية">Home</a>
-                <a href="#services" class="nav-link" data-en="Services" data-ar="الخدمات">Services</a>
-                <a href="#about" class="nav-link" data-en="About" data-ar="حولنا">About</a>
-                <a href="#contact" class="nav-link" data-en="Contact" data-ar="اتصل بنا">Contact</a>
-            </div>
-            
-            <div class="mobile-menu-toggle">
-                <i class="ph ph-list"></i>
+        <div class="container">
+            <div class="nav-content">
+                <div class="nav-logo">
+                    <img src="assets/images/china_scholars_logo.png" alt="China Scholars Logo" class="nav-logo-img">
+                    <span class="nav-logo-text" data-en="China Scholars" data-ar="علماء الصين">China Scholars</span>
+                </div>
+                
+                <div class="nav-menu">
+                    <a href="#home" class="nav-link" data-en="Home" data-ar="الرئيسية">Home</a>
+                    <a href="#services" class="nav-link" data-en="Services" data-ar="الخدمات">Services</a>
+                    <a href="#about" class="nav-link" data-en="About" data-ar="حولنا">About</a>
+                    <a href="#contact" class="nav-link" data-en="Contact" data-ar="اتصل بنا">Contact</a>
+                </div>
+                
+                <div class="mobile-menu-toggle">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
             </div>
         </div>
     </nav>
@@ -59,22 +63,22 @@
 
     <!-- Hero Section -->
     <section id="home" class="hero">
-        <div class="hero-background">
-            <img src="assets/images/university_campus.jpg" alt="Chinese University Campus" class="hero-bg-img">
-            <div class="hero-overlay"></div>
+        <div class="container">
+            <div class="hero-content">
+                <h1 class="hero-title" data-en="Your Gateway to Chinese Universities" data-ar="بوابتك إلى الجامعات الصينية">
+                    Your Gateway to Chinese Universities
+                </h1>
+                <p class="hero-subtitle" data-en="Expert guidance for international students seeking world-class education in China. From application to graduation, we're with you every step of the way." data-ar="إرشاد خبير للطلاب الدوليين الساعين للحصول على تعليم عالمي في الصين. من التقديم إلى التخرج، نحن معك في كل خطوة.">
+                    Expert guidance for international students seeking world-class education in China. From application to graduation, we're with you every step of the way.
+                </p>
+                <a href="#contact" class="cta-button" data-en="Start Your Journey" data-ar="ابدأ رحلتك">
+                    <span>Start Your Journey</span>
+                    <i class="ph ph-arrow-right"></i>
+                </a>
+            </div>
         </div>
-        
-        <div class="hero-content">
-            <h1 class="hero-title" data-en="Your Gateway to Chinese Universities" data-ar="بوابتك إلى الجامعات الصينية">
-                Your Gateway to Chinese Universities
-            </h1>
-            <p class="hero-subtitle" data-en="Expert guidance for international students seeking world-class education in China. From application to graduation, we're with you every step of the way." data-ar="إرشاد خبير للطلاب الدوليين الساعين للحصول على تعليم عالمي في الصين. من التقديم إلى التخرج، نحن معك في كل خطوة.">
-                Expert guidance for international students seeking world-class education in China. From application to graduation, we're with you every step of the way.
-            </p>
-            <button class="cta-button" data-en="Start Your Journey" data-ar="ابدأ رحلتك">
-                <span>Start Your Journey</span>
-                <i class="ph ph-arrow-right"></i>
-            </button>
+        <div class="hero-image">
+            <img src="assets/images/university_campus.jpg" alt="Chinese University Campus" class="hero-img">
         </div>
     </section>
 
@@ -199,7 +203,7 @@
                         </div>
                         <div class="contact-details">
                             <h3 data-en="Phone" data-ar="الهاتف">Phone</h3>
-                            <p>0550074818</p>
+                            <p><a href="tel:0550074818">0550074818</a></p>
                         </div>
                     </div>
                     
@@ -209,7 +213,7 @@
                         </div>
                         <div class="contact-details">
                             <h3 data-en="Email" data-ar="البريد الإلكتروني">Email</h3>
-                            <p>bbndr65@gmail.com</p>
+                            <p><a href="mailto:bbndr65@gmail.com">bbndr65@gmail.com</a></p>
                         </div>
                     </div>
                     
@@ -219,7 +223,7 @@
                         </div>
                         <div class="contact-details">
                             <h3 data-en="Instagram" data-ar="إنستغرام">Instagram</h3>
-                            <p>@bbndr65</p>
+                            <p><a href="https://instagram.com/bbndr65" target="_blank">@bbndr65</a></p>
                         </div>
                     </div>
                 </div>
@@ -246,9 +250,9 @@
                             <label for="message" data-en="Your Message" data-ar="رسالتك">Your Message</label>
                         </div>
                         
-                        <button type="submit" class="submit-btn" data-en="Send Message" data-ar="إرسال الرسالة">
-                            <span>Send Message</span>
-                            <i class="ph ph-paper-plane-right"></i>
+                        <button type="submit" class="submit-btn">
+                            <span data-en="Send Message" data-ar="إرسال الرسالة">Send Message</span>
+                            <i class="ph ph-paper-plane-tilt"></i>
                         </button>
                     </form>
                 </div>
@@ -293,4 +297,3 @@
     <script src="js/language.js"></script>
 </body>
 </html>
-
