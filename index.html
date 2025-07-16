@@ -1,0 +1,296 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>China Scholars - Your Gateway to Chinese Universities</title>
+    <meta name="description" content="Expert educational consultancy helping students apply to top universities in China. Professional guidance, visa assistance, and cultural preparation.">
+    
+    <!-- Google Fonts - Inter -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    
+    <!-- Phosphor Icons -->
+    <script src="https://unpkg.com/@phosphor-icons/web"></script>
+    
+    <!-- Stylesheets -->
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="css/animations.css">
+    <link rel="stylesheet" href="css/responsive.css">
+</head>
+<body>
+    <!-- Language Toggle -->
+    <div class="language-toggle">
+        <button id="lang-en" class="lang-btn active" data-lang="en">EN</button>
+        <button id="lang-ar" class="lang-btn" data-lang="ar">العربية</button>
+    </div>
+
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="nav-logo">
+                <img src="assets/images/china_scholars_logo.png" alt="China Scholars Logo" class="logo-img">
+                <span class="logo-text" data-en="China Scholars" data-ar="علماء الصين">China Scholars</span>
+            </div>
+            
+            <div class="nav-menu">
+                <a href="#home" class="nav-link" data-en="Home" data-ar="الرئيسية">Home</a>
+                <a href="#services" class="nav-link" data-en="Services" data-ar="الخدمات">Services</a>
+                <a href="#about" class="nav-link" data-en="About" data-ar="حولنا">About</a>
+                <a href="#contact" class="nav-link" data-en="Contact" data-ar="اتصل بنا">Contact</a>
+            </div>
+            
+            <div class="mobile-menu-toggle">
+                <i class="ph ph-list"></i>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Mobile Menu -->
+    <div class="mobile-menu">
+        <div class="mobile-menu-content">
+            <a href="#home" class="mobile-nav-link" data-en="Home" data-ar="الرئيسية">Home</a>
+            <a href="#services" class="mobile-nav-link" data-en="Services" data-ar="الخدمات">Services</a>
+            <a href="#about" class="mobile-nav-link" data-en="About" data-ar="حولنا">About</a>
+            <a href="#contact" class="mobile-nav-link" data-en="Contact" data-ar="اتصل بنا">Contact</a>
+        </div>
+    </div>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-background">
+            <img src="assets/images/university_campus.jpg" alt="Chinese University Campus" class="hero-bg-img">
+            <div class="hero-overlay"></div>
+        </div>
+        
+        <div class="hero-content">
+            <h1 class="hero-title" data-en="Your Gateway to Chinese Universities" data-ar="بوابتك إلى الجامعات الصينية">
+                Your Gateway to Chinese Universities
+            </h1>
+            <p class="hero-subtitle" data-en="Expert guidance for international students seeking world-class education in China. From application to graduation, we're with you every step of the way." data-ar="إرشاد خبير للطلاب الدوليين الساعين للحصول على تعليم عالمي في الصين. من التقديم إلى التخرج، نحن معك في كل خطوة.">
+                Expert guidance for international students seeking world-class education in China. From application to graduation, we're with you every step of the way.
+            </p>
+            <button class="cta-button" data-en="Start Your Journey" data-ar="ابدأ رحلتك">
+                <span>Start Your Journey</span>
+                <i class="ph ph-arrow-right"></i>
+            </button>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section id="services" class="services">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title" data-en="Our Services" data-ar="خدماتنا">Our Services</h2>
+                <p class="section-subtitle" data-en="Comprehensive support for your educational journey in China" data-ar="دعم شامل لرحلتك التعليمية في الصين">
+                    Comprehensive support for your educational journey in China
+                </p>
+            </div>
+            
+            <div class="services-grid">
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="ph ph-graduation-cap"></i>
+                    </div>
+                    <h3 class="service-title" data-en="University Applications" data-ar="طلبات الجامعة">University Applications</h3>
+                    <p class="service-description" data-en="Expert assistance with applications to top Chinese universities, including document preparation and submission guidance." data-ar="مساعدة خبيرة في التقديم لأفضل الجامعات الصينية، بما في ذلك إعداد الوثائق وإرشادات التقديم.">
+                        Expert assistance with applications to top Chinese universities, including document preparation and submission guidance.
+                    </p>
+                </div>
+                
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="ph ph-passport"></i>
+                    </div>
+                    <h3 class="service-title" data-en="Visa Guidance" data-ar="إرشاد التأشيرة">Visa Guidance</h3>
+                    <p class="service-description" data-en="Complete visa application support, from documentation to interview preparation, ensuring a smooth process." data-ar="دعم كامل لطلب التأشيرة، من التوثيق إلى التحضير للمقابلة، لضمان عملية سلسة.">
+                        Complete visa application support, from documentation to interview preparation, ensuring a smooth process.
+                    </p>
+                </div>
+                
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="ph ph-globe"></i>
+                    </div>
+                    <h3 class="service-title" data-en="Cultural Preparation" data-ar="التحضير الثقافي">Cultural Preparation</h3>
+                    <p class="service-description" data-en="Comprehensive cultural orientation to help you adapt and thrive in Chinese academic and social environments." data-ar="توجيه ثقافي شامل لمساعدتك على التكيف والازدهار في البيئات الأكاديمية والاجتماعية الصينية.">
+                        Comprehensive cultural orientation to help you adapt and thrive in Chinese academic and social environments.
+                    </p>
+                </div>
+                
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="ph ph-translate"></i>
+                    </div>
+                    <h3 class="service-title" data-en="Language Support" data-ar="دعم اللغة">Language Support</h3>
+                    <p class="service-description" data-en="Mandarin language preparation and ongoing support to ensure academic success and daily communication." data-ar="إعداد لغة الماندرين والدعم المستمر لضمان النجاح الأكاديمي والتواصل اليومي.">
+                        Mandarin language preparation and ongoing support to ensure academic success and daily communication.
+                    </p>
+                </div>
+                
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="ph ph-books"></i>
+                    </div>
+                    <h3 class="service-title" data-en="Academic Counseling" data-ar="الاستشارة الأكاديمية">Academic Counseling</h3>
+                    <p class="service-description" data-en="Personalized academic guidance to help you choose the right program and excel in your studies." data-ar="إرشاد أكاديمي شخصي لمساعدتك في اختيار البرنامج المناسب والتفوق في دراستك.">
+                        Personalized academic guidance to help you choose the right program and excel in your studies.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <div class="container">
+            <div class="about-content">
+                <div class="about-text">
+                    <h2 class="section-title" data-en="Why Choose China for Your Education?" data-ar="لماذا تختار الصين لتعليمك؟">
+                        Why Choose China for Your Education?
+                    </h2>
+                    <p class="about-description" data-en="China has emerged as a global leader in education, offering world-class universities, cutting-edge research facilities, and diverse academic programs. With our expertise and personalized guidance, we help you navigate this exciting educational landscape and achieve your academic goals." data-ar="برزت الصين كرائدة عالمية في التعليم، حيث تقدم جامعات عالمية المستوى ومرافق بحثية متطورة وبرامج أكاديمية متنوعة. بخبرتنا وإرشادنا الشخصي، نساعدك في التنقل في هذا المشهد التعليمي المثير وتحقيق أهدافك الأكاديمية.">
+                        China has emerged as a global leader in education, offering world-class universities, cutting-edge research facilities, and diverse academic programs. With our expertise and personalized guidance, we help you navigate this exciting educational landscape and achieve your academic goals.
+                    </p>
+                    
+                    <div class="about-features">
+                        <div class="feature-item">
+                            <i class="ph ph-medal"></i>
+                            <span data-en="Top-ranked universities globally" data-ar="جامعات مصنفة عالمياً">Top-ranked universities globally</span>
+                        </div>
+                        <div class="feature-item">
+                            <i class="ph ph-currency-dollar"></i>
+                            <span data-en="Affordable tuition and living costs" data-ar="رسوم دراسية وتكاليف معيشة معقولة">Affordable tuition and living costs</span>
+                        </div>
+                        <div class="feature-item">
+                            <i class="ph ph-users"></i>
+                            <span data-en="Rich cultural experience" data-ar="تجربة ثقافية غنية">Rich cultural experience</span>
+                        </div>
+                        <div class="feature-item">
+                            <i class="ph ph-briefcase"></i>
+                            <span data-en="Excellent career opportunities" data-ar="فرص مهنية ممتازة">Excellent career opportunities</span>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="about-image">
+                    <img src="assets/images/chinese_culture.jpg" alt="Chinese Culture" class="about-img">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title" data-en="Get in Touch" data-ar="تواصل معنا">Get in Touch</h2>
+                <p class="section-subtitle" data-en="Ready to start your educational journey? Contact our expert consultants for personalized guidance." data-ar="مستعد لبدء رحلتك التعليمية؟ اتصل بمستشارينا الخبراء للحصول على إرشاد شخصي.">
+                    Ready to start your educational journey? Contact our expert consultants for personalized guidance.
+                </p>
+            </div>
+            
+            <div class="contact-content">
+                <div class="contact-info">
+                    <div class="contact-item">
+                        <div class="contact-icon">
+                            <i class="ph ph-phone"></i>
+                        </div>
+                        <div class="contact-details">
+                            <h3 data-en="Phone" data-ar="الهاتف">Phone</h3>
+                            <p>0550074818</p>
+                        </div>
+                    </div>
+                    
+                    <div class="contact-item">
+                        <div class="contact-icon">
+                            <i class="ph ph-envelope"></i>
+                        </div>
+                        <div class="contact-details">
+                            <h3 data-en="Email" data-ar="البريد الإلكتروني">Email</h3>
+                            <p>bbndr65@gmail.com</p>
+                        </div>
+                    </div>
+                    
+                    <div class="contact-item">
+                        <div class="contact-icon">
+                            <i class="ph ph-instagram-logo"></i>
+                        </div>
+                        <div class="contact-details">
+                            <h3 data-en="Instagram" data-ar="إنستغرام">Instagram</h3>
+                            <p>@bbndr65</p>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="contact-form">
+                    <form id="contactForm">
+                        <div class="form-group">
+                            <input type="text" id="name" name="name" required>
+                            <label for="name" data-en="Your Name" data-ar="اسمك">Your Name</label>
+                        </div>
+                        
+                        <div class="form-group">
+                            <input type="email" id="email" name="email" required>
+                            <label for="email" data-en="Email Address" data-ar="عنوان البريد الإلكتروني">Email Address</label>
+                        </div>
+                        
+                        <div class="form-group">
+                            <input type="tel" id="phone" name="phone">
+                            <label for="phone" data-en="Phone Number" data-ar="رقم الهاتف">Phone Number</label>
+                        </div>
+                        
+                        <div class="form-group">
+                            <textarea id="message" name="message" rows="5" required></textarea>
+                            <label for="message" data-en="Your Message" data-ar="رسالتك">Your Message</label>
+                        </div>
+                        
+                        <button type="submit" class="submit-btn" data-en="Send Message" data-ar="إرسال الرسالة">
+                            <span>Send Message</span>
+                            <i class="ph ph-paper-plane-right"></i>
+                        </button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-logo">
+                    <img src="assets/images/china_scholars_logo.png" alt="China Scholars Logo" class="footer-logo-img">
+                    <span class="footer-logo-text" data-en="China Scholars" data-ar="علماء الصين">China Scholars</span>
+                </div>
+                
+                <div class="footer-links">
+                    <a href="#home" data-en="Home" data-ar="الرئيسية">Home</a>
+                    <a href="#services" data-en="Services" data-ar="الخدمات">Services</a>
+                    <a href="#about" data-en="About" data-ar="حولنا">About</a>
+                    <a href="#contact" data-en="Contact" data-ar="اتصل بنا">Contact</a>
+                </div>
+                
+                <div class="footer-social">
+                    <a href="https://instagram.com/bbndr65" target="_blank" aria-label="Instagram">
+                        <i class="ph ph-instagram-logo"></i>
+                    </a>
+                </div>
+            </div>
+            
+            <div class="footer-bottom">
+                <p data-en="© 2025 China Scholars. All rights reserved." data-ar="© 2025 علماء الصين. جميع الحقوق محفوظة.">
+                    © 2025 China Scholars. All rights reserved.
+                </p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Scripts -->
+    <script src="js/main.js"></script>
+    <script src="js/animations.js"></script>
+    <script src="js/language.js"></script>
+</body>
+</html>
+
