@@ -1,0 +1,65 @@
+/* Contact Section Fix */
+.contact-details p a {
+    color: var(--text-light);
+    text-decoration: none;
+    transition: var(--transition);
+}
+
+.contact-details p a:hover {
+    color: var(--secondary-color);
+}
+
+/* Ensure contact info is visible */
+.contact-info {
+    display: flex !important;
+    flex-direction: column !important;
+    gap: 2rem !important;
+    visibility: visible !important;
+    opacity: 1 !important;
+}
+
+.contact-item {
+    display: flex !important;
+    align-items: flex-start !important;
+    gap: 1rem !important;
+    visibility: visible !important;
+    opacity: 1 !important;
+}
+
+.contact-details {
+    visibility: visible !important;
+    opacity: 1 !important;
+}
+
+.contact-details h3 {
+    font-size: 1.125rem !important;
+    font-weight: 600 !important;
+    color: var(--primary-color) !important;
+    margin-bottom: 0.5rem !important;
+    visibility: visible !important;
+    opacity: 1 !important;
+}
+
+.contact-details p {
+    color: var(--text-light) !important;
+    font-size: 1rem !important;
+    visibility: visible !important;
+    opacity: 1 !important;
+    margin: 0 !important;
+}
+
+/* Mobile responsive fix */
+@media (max-width: 768px) {
+    .contact-content {
+        grid-template-columns: 1fr !important;
+        gap: 2rem !important;
+    }
+    
+    .contact-info {
+        order: 2;
+    }
+    
+    .contact-form {
+        order: 1;
+    }
+}
